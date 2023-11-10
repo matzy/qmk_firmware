@@ -27,4 +27,4 @@
 	branch = release/v8.2
 [submodule "keyboards/keyball"]
 	path = keyboards/keyball
-	url = git@github.com:matzy/keyball.git
+	url = git@github.com:matzy/keyball-private.git
