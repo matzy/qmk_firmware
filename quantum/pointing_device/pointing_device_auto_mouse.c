@@ -21,6 +21,7 @@
 #    include "debug.h"
 #    include "action_util.h"
 #    include "quantum_keycodes.h"
+#    include <string.h>
 
 /* local data structure for tracking auto mouse */
 static auto_mouse_context_t auto_mouse_context = {
