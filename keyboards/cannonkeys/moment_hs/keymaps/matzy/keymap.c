@@ -13,7 +13,7 @@ enum layer_names {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     [_BASE] = LAYOUT_60_tsangan_hhkb(
-        KC_ESC   , KC_1     , KC_2     , KC_3     , KC_4     , KC_5     , KC_6     , KC_7     , KC_8     , KC_9     , KC_0     , KC_MINS  , KC_EQL   , KC_BSPC  , KC_DEL  ,
+        KC_ESC   , KC_1     , KC_2     , KC_3     , KC_4     , KC_5     , KC_6     , KC_7     , KC_8     , KC_9     , KC_0     , KC_MINS  , KC_EQL   , KC_BSPC  , KC_BSPC ,
         KC_TAB   , KC_Q     , KC_W     , KC_E     , KC_R     , KC_T     , KC_Y     , KC_U     , KC_I     , KC_O     , KC_P     , KC_LBRC  , KC_RBRC  , KC_BSLS  ,
         MO(_FN2) , KC_A     , KC_S     , KC_D     , KC_F     , KC_G     , KC_H     , KC_J     , KC_K     , KC_L     , KC_SCLN  , KC_QUOT  ,            KC_ENT   ,
         KC_LSFT  , KC_Z     , KC_X     , KC_C     , KC_V     , KC_B     , KC_N     , KC_M     , KC_COMM  , KC_DOT   , KC_SLSH  ,            KC_RSFT  , MO(_FN1) ,
@@ -29,7 +29,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ),
     // like emacs binding.
     [_FN2] = LAYOUT_60_tsangan_hhkb(
-        _______  , _______  , _______  , _______  , _______  , _______  , _______  , _______  , _______  , _______  , _______  , _______  , _______  ,C(KC_BSPC), C(KC_DEL),
+        _______  , _______  , _______  , _______  , _______  , _______  , _______  , _______  , _______  , _______  , _______  , _______  , _______  ,C(KC_BSPC), C(KC_BSPC),
         _______  , _______  , C(KC_W)  , KC_END   , C(KC_I)  , _______  , C(KC_V)  , _______  , _______  ,C(KC_ENT) , KC_UP    , _______  , _______  , _______  ,
         _______  , KC_HOME  , C(KC_F)  , KC_DEL   , KC_RGHT  , _______  , KC_BSPC  , C(KC_J)  , C(KC_L)  , KC_F14   , _______  , _______  ,            _______  ,
         _______  , C(KC_Z)  , _______  , C(KC_C)  , KC_PGDN  , KC_LEFT  , KC_DOWN  , KC_ENT   , _______  , _______  , C(KC_Z)  ,            _______  , _______  ,
